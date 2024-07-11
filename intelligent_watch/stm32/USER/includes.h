@@ -21,8 +21,8 @@
 #include "lv_port_disp.h"
 #include "lv_port_indev.h"
 #include "lv_demo_widgets.h"
-
-
+#include "ui.h"
+#include "ui_helpers.h"
 
 extern GPIO_InitTypeDef  	GPIO_InitStructure;
 extern NVIC_InitTypeDef 	NVIC_InitStructure;		

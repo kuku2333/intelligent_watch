@@ -27,7 +27,9 @@ int main(void)
 	
 	lv_port_indev_init();
 	
-	lv_demo_widgets();
+	// lv_demo_widgets();
+	
+	ui.init();
 	
 	tim3_init();
 	
