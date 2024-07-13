@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F40_41xxx,LV_LVGL_H_INCLUDE_SIMPLE</Define>
               <Undefine></Undefine>
-              <IncludePath>..\DEVICE_LIB\inc;..\CMSIS;..\SYSTEM;..\USER;..\HARDWARE\inc;..\HARDWARE\BEEP;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\LED;..\HARDWARE\TIM;..\HARDWARE\TOUCH;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\LVGL;..\LVGL\src;..\LVGL\examples\porting;..\LVGL\demos\widgets</IncludePath>
+              <IncludePath>..\DEVICE_LIB\inc;..\CMSIS;..\SYSTEM;..\USER;..\HARDWARE\inc;..\HARDWARE\BEEP;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\LED;..\HARDWARE\TIM;..\HARDWARE\TOUCH;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\LVGL;..\LVGL\src;..\LVGL\examples\porting;..\LVGL\demos\widgets;..\LVGL\ui</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1689,6 +1689,31 @@
               <FileName>img_lvgl_logo.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LVGL\demos\widgets\assets\img_lvgl_logo.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>LVGL</GroupName>
+          <Files>
+            <File>
+              <FileName>ui.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LVGL\ui\ui.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_helpers.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LVGL\ui\ui_helpers.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_comp_hook.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LVGL\ui\components\ui_comp_hook.c</FilePath>
+            </File>
+            <File>
+              <FileName>ui_Screen1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LVGL\ui\screens\ui_Screen1.c</FilePath>
             </File>
           </Files>
         </Group>
